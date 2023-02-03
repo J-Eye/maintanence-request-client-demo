@@ -2,11 +2,11 @@ import{BrowserRouter, Routes, Route} from "react-router-dom";
 import {Container} from '@mui/material';
 import { Request } from './Components/Pages/Requests';
 import { NoContent } from './Components/Pages/NoContent';
-import { Update } from '@mui/icons-material';
-import { Add } from '@mui/icons-material';
-import './App.css';
+import { Add } from "./Components/Pages/Add";
+import { Update } from "./Components/Pages/UpdateRequest";
 
-function App() {
+
+function App() {  
   return (
     <Container maxWidth="md">
       <BrowserRouter>

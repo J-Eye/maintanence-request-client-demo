@@ -1,0 +1,32 @@
+input {
+    border: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 10px;
+    text-align: left;
+    height: 30px;
+    font-size: 15px;
+}
+label {
+    font-size: 13px;
+}
+#description {
+    box-sizing: border-box;
+    height: 250px;
+    
+}
+#submitForm{
+    margin-top: 10px;
+    width: 10%;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: #2e98f7;
+    border-radius: 5px;
+    box-shadow: 0px 2px #d6d6d6;
+    justify-self: center;
+}
+form {
+    margin-top: 10px;
+    display: grid;
+}   

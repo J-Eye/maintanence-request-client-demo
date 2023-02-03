@@ -47,7 +47,7 @@ export function RequestTable(){
                     <TableCell>First Name</TableCell>
                     <TableCell>Last Name</TableCell>
                     <TableCell>Email</TableCell>                        
-                    <TableCell>Apt No</TableCell>
+                    <TableCell>Apartment Number</TableCell>
                     <TableCell>Created At</TableCell>
                     <TableCell align="right">Actions</TableCell>
             </TableRow>
@@ -61,6 +61,7 @@ export function RequestTable(){
                             <TableCell>{requests.firstName}</TableCell>
                             <TableCell>{requests.lastName}</TableCell>
                             <TableCell>{requests.email}</TableCell>
+                            <TableCell>{requests.aptNumber}</TableCell>
                             <TableCell>{requests.createdAt}</TableCell>
                             <TableCell align="right">
                                 <IconButton component="a" onClick={()=> goToUdapte(requests.id)}>
